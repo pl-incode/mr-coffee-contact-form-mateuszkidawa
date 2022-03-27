@@ -1,0 +1,81 @@
+<!-- informacje kontaktowe: mail i nr -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="application.css" />
+  <title>MRCOFFEE - Contact</title>
+  <script defer src="./form.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html"><img class="logom" src="./assets/full_logo_white.png" alt="logo MRCOFFEE" /></a>
+      <div class="menu">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <img class="logod" src="./assets/logo_mrcoffee.png" alt="logo MRCOFFEE" /></a>
+  </header>
+
+  <form id="form" class="form" method="get">
+    <h2>Dites nous tout !</h2>
+    <label for="name">Nom*:</label>
+    <input type="text" class="name" id="name" name="user_name"  >
+
+    <label for="surname">Prénom*:</label>
+    <input type="text" id="surname" name="user_surname" required>
+
+    <label for="phone">Téléphone:</label>
+    <input type="tel" id="phone" name="user_phone" 
+    pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required>
+
+    <label for="mail">Adresse mail*:</label>
+    <input type="email" id="mail" name="user_mail" required>
+
+    <label for="msg">Message*:</label>
+    <textarea id="msg" name="user_msg" 
+    placeholder="Tapez votre message ici" required></textarea>
+    
+    <button type="submit" id="submit">ENVOYER</button>
+  </form>
+
+  <!-- <button id="submit" >Wyslij Mnie</button> -->
+  <!-- <label for="name">
+    Name: <input type="text" id="name" name="user_name">
+  </label> -->
+
+  <div class="contact">
+    <div class="contact_child">
+      <div class="contact_text">
+        <h2>On vous attend !</h2>
+        <h4>Mr.Coffee</h4>
+        <p>15 place Jules Guesde
+          <br>75006 Paris</p>
+        <p>Tel : +33 9 46 25 78 45
+          <br>Mail : contact@mr-coffee.com</p>
+      </div>
+      <div class="contact_map">
+        <img class="map_img" src="./assets/carte_contact.png" alt="map" /></a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div><img class="logo_blanc" src="./assets/logo_blanc.png" alt="logo MRCOFFEE"></div>
+    <div class="social_icons">
+      <p>Suivez nous sur les réseaux sociaux !</p>
+      <img class="social_icon" src="./assets/logo_linkedin.png" alt="logo linkedin">
+      <img class="social_icon" src="./assets/logo_twitter.png" alt="logo twitter">
+      <img class="social_icon" src="./assets/logo_facebook.png" alt="logo facebook">
+    </div>
+
+  </footer>
+</body>
+
+</html>
