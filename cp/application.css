@@ -1,0 +1,153 @@
+body {
+  color: #5c5b5b;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #68798c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div a {
+  color: rgb(255, 255, 255);
+  padding: 18px;
+  white-space: pre;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+div a:hover {
+  color: rgb(199, 158, 82);
+}
+
+.logom,
+.logod {
+  padding: 10px 5px 5px 25px;
+  width: 100px;
+}
+
+header {
+  flex-direction: column;
+  display: flex;
+}
+
+.logod {
+  align-self: center;
+}
+
+
+.hello {
+  text-align: center;
+}
+.hello_pic {
+  width: 80%;
+}
+.hello_text {
+  color: #ffffff;
+  text-shadow: 1px 1px #525252;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background-color: #b1b7bd;
+  margin: 5px;
+  width: 30%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+h2 {
+  margin: 35px;
+  text-align: center;
+}
+h3 {
+  text-shadow: 1px 1px #525252;
+  color: #ffffff;
+}
+.img_card {
+  margin: 15px;
+  width: 20%;
+} 
+
+.button {
+  box-shadow: 0.5px 0.5px #525252 ;
+  background-color: rgb(88, 108, 146);
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  margin: 50px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.open {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+
+
+}
+.open_pic {
+  width: 5%;
+  padding: 10px;
+}
+
+.blocks {
+  margin-left: 10%;
+  margin-bottom: 30px;
+  margin-top: 1px;
+  width:30%;
+  float: left;
+  text-align: center;
+}
+
+.last {
+  display: block;
+  text-align: center;
+  clear: both;
+  margin: 55px;
+}
+
+footer {
+  padding: 2px 2px 2px 2px;
+  color: #ffffff;
+  background-color: #6a7b8b;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  clear: both;
+}
+
+.social_icon {
+  padding: 18px;
+  width: 25px;
+}
+
+.logo_blanc {
+  padding: 0px 5px 5px 25px;
+  float: left;
+  width: 35px;
+  transform: translateY(50%);
+}
+
+
