@@ -1,3 +1,24 @@
+/* modal */ 
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  border: solid 1px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 50px;
+}
+.modal-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+
 form{
   display: grid;
   max-width: 500px;
@@ -7,7 +28,7 @@ form{
 }
 form input, form textarea, ::placeholder{
   background-color:#d2d5d8;
-  color: white;
+  color: rgb(49, 49, 49);
   border: none;
   margin-bottom: 1em;
   font-family: 'AvenirNext', sans-serif;
@@ -15,7 +36,7 @@ form input, form textarea, ::placeholder{
   overflow: hidden;
   resize: none;
 }
-form button{
+.btn2, form button{
   font-family: 'AvenirNext', sans-serif;
   font-weight: bolder;
   margin: auto;
@@ -26,6 +47,7 @@ form button{
   border-radius: 4px;
   margin-top: 1.5em;
 }
+
 form label{
   margin-bottom: 0.5em;
 }
