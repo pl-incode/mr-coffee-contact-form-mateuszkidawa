@@ -1,0 +1,289 @@
+/* modal */ 
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  border: solid 1px;
+  border-radius: 3px;
+  text-align: center;
+  padding: 50px;
+}
+.modal-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+
+form{
+  display: grid;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 10em;
+}
+form input, form textarea, ::placeholder{
+  background-color:#d2d5d8;
+  color: rgb(49, 49, 49);
+  border: none;
+  margin-bottom: 1em;
+  font-family: 'AvenirNext', sans-serif;
+  padding: 0.5em;
+  overflow: hidden;
+  resize: none;
+}
+.btn2, form button{
+  font-family: 'AvenirNext', sans-serif;
+  font-weight: bolder;
+  margin: auto;
+  padding: 0.8em 3.5em 0.8em 3.5em;;
+  background-color:#7a8ea5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1.5em;
+}
+
+form label{
+  margin-bottom: 0.5em;
+}
+
+body {
+  color: #5c5b5b;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  font-family: 'AvenirNext', sans-serif;
+}
+
+nav {
+  background-color: #68798c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div a {
+  color: rgb(255, 255, 255);
+  padding: 18px;
+  white-space: pre;
+  text-decoration: none;
+}
+
+
+div a:hover {
+  color: rgb(199, 158, 82);
+}
+
+.logom,
+.logod {
+  padding: 10px 5px 5px 25px;
+  width: 100px;
+}
+
+header {
+  flex-direction: column;
+  display: flex;
+}
+
+.logod {
+  align-self: center;
+}
+
+
+.hello {
+  text-align: center;
+}
+
+.hello_pic {
+  width: 80%;
+}
+
+.hello_text {
+  font-family: 'Archivo', sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #f3f3f3;
+  text-shadow: 1px 1px #525252;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #b1b7bd;
+  margin: 5px;
+  width: 30%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: 'AvenirNext', sans-serif;
+  margin: 35px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'AvenirNext', sans-serif;
+  text-shadow: 1px 1px #525252;
+  color: #ffffff;
+}
+
+.img_card {
+  margin: 15px;
+  width: 20%;
+}
+
+.button {
+  font-family: 'AvenirNext-Bold', sans-serif;
+  box-shadow: 0.5px 0.5px #525252;
+  background-color: rgb(88, 108, 146);
+  border-radius: 5px;
+  width: 125px;
+  height: 20px;
+  padding: 10px;
+  margin: 50px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.open {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+
+
+}
+
+.open_pic {
+  width: 5%;
+  padding: 10px;
+}
+
+.blocks {
+  margin-left: 10%;
+  margin-bottom: 30px;
+  margin-top: 1px;
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.last {
+  display: block;
+  text-align: center;
+  clear: both;
+  margin: 55px;
+  font-family: 'Palatino-Italic', sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: 15px 15px;
+}
+
+.container_child {
+  display: flex;
+  align-items: center;
+}
+
+.container_text {
+  text-align: center;
+  width: 50%;
+}
+
+.container_img {
+  width: 50%;
+}
+
+.contact {
+  float: left;
+  position: relative;
+  left: 50%;
+
+}
+
+.contact_child {
+  float: left;
+  position: relative;
+  left: -50%;
+}
+
+.contact_map {
+  margin-top: 30px;
+  margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 426px) {
+
+  /* For mobile phones: */
+
+  .container_img {
+    width: 100%;
+  }
+
+  .contact {
+    float: left;
+    position: relative;
+    left: 50%;
+
+  }
+
+  .contact_child {
+    float: left;
+    position: relative;
+    left: -50%;
+  }
+
+  .contact_map {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .map_img {
+    height: 250px;
+  }
+}
+
+footer {
+  padding: 2px 2px 2px 2px;
+  margin-top: 100px;
+  color: #ffffff;
+  background-color: #6a7b8b;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  clear: both;
+}
+
+.social_icon {
+  padding: 18px;
+  width: 25px;
+}
+
+.logo_blanc {
+  padding: 0px 5px 5px 25px;
+  float: left;
+  width: 35px;
+  transform: translateY(50%);
+}
